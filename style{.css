@@ -1,0 +1,184 @@
+#main{
+    height: 100%;   
+    background-image: url(fundo.jpg);
+
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+}
+#log{
+    background-color: transparent;
+    height: 160px;
+    width: 800px;
+}
+
+#menu{
+
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 1000px;
+    border: solid ;
+    margin-top: 2px;
+    border-radius: 20px;
+    border-color: pink;
+
+    display: flex;
+    justify-content: center;
+    gap: 0px 100px;
+
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 20px;
+
+}
+
+#menu a{
+        text-decoration: none;
+        color: rgb(181, 24, 170);       
+}
+#menu a:hover{
+    color: rgb(255, 205, 231);
+}
+
+#body{
+    background-image: linear-gradient(180deg, rgb(37, 9, 66), rgb(226, 163, 205));
+    height: 1000px;
+    width: 800px;
+    margin: 10px;
+
+    border-image: linear-gradient(rgba(31, 7, 54, 0.896),rgba(184, 13, 199, 0.945)) 30;
+    border-style: double;    
+    border-width: 15px;
+    border-top: none;
+    border-bottom: none;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.box{
+    height: 500px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+
+    text-align: center; 
+
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+#body .box3{
+    height: 300px;
+    width: 300px;
+                                                
+    text-align: center; 
+    color: rgb(255, 255, 255) ;
+
+    font-size: 30px;
+
+}
+
+.box3 h3,h5,p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                                              
+    font-size: 20px;
+    text-shadow: 3px 3px rgba(25, 11, 57, 0.737); 
+}
+
+.box3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+    filter: drop-shadow(0px 10px 10px rgb(155, 149, 231));
+}
+
+#boodle{
+
+    background-color: rgb(23, 23, 23);
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    border-top: 4px solid hotpink;
+}
+
+.box2{
+    height: 250px;
+    width: 300px;
+
+    color: white;
+
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(245, 220, 242);
+}
+
+#body a:link {
+    text-decoration: none;
+    border: 2px solid rgb(65, 11, 11);
+    text-shadow: none;
+    font-size: 40px;
+}
+#body a:hover {
+    color: hotpink;
+    border: 2px solid hotpink;
+    text-shadow: none;
+  }
+
+h1,h2,h3 {
+    font-family: 'Common Pixel', sans-serif;
+    text-shadow: 0px 5px rgba(47, 5, 137, 0.737);                                                                           
+}
+
+.form{
+    width: 330px;
+
+    color: rgb(69, 21, 92);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+
+
+}
+
+.form input,select{
+    width: 100%;
+
+    border: 3px solid rgb(225, 105, 255);
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form button{
+    background-color: aliceblue;
+    border: 3px solid hotpink;
+    border-radius: 15px;
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Common Pixel', sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
